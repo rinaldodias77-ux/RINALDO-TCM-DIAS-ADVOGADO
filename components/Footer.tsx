@@ -30,7 +30,7 @@ const Footer: React.FC = () => {
         </div>
 
         <div className="text-xs text-gray-500 border-t border-gray-800 pt-6">
-          &copy; {currentYear} <a href="https://www.rinaldotorquatoadv.com" className="hover:text-white transition-colors">Rinaldo Torquato Advocacia</a>. Todos os direitos reservados.
+          &copy; {currentYear} <a href="https://www.rinaldotorquatoadv.com" className="hover:text-white transition-colors">Rinaldo Torquato Advogado</a>. Todos os direitos reservados.
         </div>
       </div>
     </footer>

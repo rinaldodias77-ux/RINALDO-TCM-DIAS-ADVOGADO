@@ -8,17 +8,17 @@ const About: React.FC = () => {
         <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
           
           <div className="lg:w-1/2 relative">
-             {/* Placeholder for professional image */}
+             {/* Imagem profissional ilustrativa: Notebook/Ambiente de Trabalho */}
              <div className="aspect-[3/4] rounded-lg overflow-hidden shadow-2xl bg-gray-200 relative">
                 <img 
-                  src="https://picsum.photos/id/1/800/1000" 
-                  alt="Mesa de escritório de advocacia" 
-                  className="w-full h-full object-cover opacity-90"
+                  src="https://images.unsplash.com/photo-1505664194779-8beaceb93744?q=80&w=1000&auto=format&fit=crop" 
+                  alt="Ambiente de trabalho jurídico com notebook e documentos" 
+                  className="w-full h-full object-cover opacity-90 hover:scale-105 transition-transform duration-700"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent flex items-end p-8">
+                <div className="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/20 to-transparent flex items-end p-8">
                   <div>
                     <h3 className="text-white text-2xl font-serif font-bold">Dr. Rinaldo Torquato</h3>
-                    <p className="text-white/90">Advogado Tributarista</p>
+                    <p className="text-white/90 font-medium">Advogado Tributarista</p>
                   </div>
                 </div>
              </div>
