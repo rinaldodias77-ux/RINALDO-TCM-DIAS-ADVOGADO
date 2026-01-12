@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Scale, FileCheck, ShieldCheck } from 'lucide-react';
 
@@ -8,11 +9,11 @@ const About: React.FC = () => {
         <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
           
           <div className="lg:w-1/2 relative">
-             {/* Imagem profissional ilustrativa: Notebook/Ambiente de Trabalho */}
+             {/* Imagem profissional ilustrativa: Balança da Justiça */}
              <div className="aspect-[3/4] rounded-lg overflow-hidden shadow-2xl bg-gray-200 relative">
                 <img 
-                  src="https://images.unsplash.com/photo-1505664194779-8beaceb93744?q=80&w=1000&auto=format&fit=crop" 
-                  alt="Ambiente de trabalho jurídico com notebook e documentos" 
+                  src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?q=80&w=1000&auto=format&fit=crop" 
+                  alt="Balança da justiça representando equilíbrio e o direito do aposentado" 
                   className="w-full h-full object-cover opacity-90 hover:scale-105 transition-transform duration-700"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/20 to-transparent flex items-end p-8">
@@ -36,7 +37,7 @@ const About: React.FC = () => {
             
             <div className="space-y-6 text-gray-600 text-lg leading-relaxed">
               <p>
-                Sou advogado atuante principalmente em pedidos de <strong>isenção de Imposto de Renda</strong> sobre proventos de aposentadoria para pessoas portadoras de moléstias graves, conforme previsão legal do artigo 6º, inciso XIV, da Lei 7.713/88.
+                Sou advogado atuante principalmente em pedidos de <strong>isenção de Imposto de Renda</strong> sobre proventos de aposentadoria para pessoas portadoras de doenças graves, conforme previsão legal do artigo 6º, inciso XIV, da Lei 7.713/88.
               </p>
               <p>
                 Meu trabalho é focado em orientar aposentados sobre seus direitos e conduzir todo o processo administrativo ou judicial para garantir que a isenção seja reconhecida da forma mais rápida e segura possível.

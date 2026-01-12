@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { FileText, Stethoscope, History, Scale, TrendingUp } from 'lucide-react';
 import { GuidanceItem } from '../types';
@@ -12,7 +13,7 @@ const guidanceItems: GuidanceItem[] = [
   {
     id: 2,
     title: 'Preciso de laudo oficial?',
-    summary: 'Não. Conforme a Súmula 598 do STJ, é possível o reconhecimento da isenção mesmo sem laudo oficial, desde que o conjunto probatório (exames, atestados, tomografias) seja robusto para comprovar a moléstia.',
+    summary: 'Não. Conforme a Súmula 598 do STJ, é possível o reconhecimento da isenção mesmo sem laudo oficial, desde que o conjunto probatório (exames, atestados, tomografias) seja robusto para comprovar a doença.',
     iconName: 'Stethoscope'
   },
   {
@@ -24,7 +25,7 @@ const guidanceItems: GuidanceItem[] = [
   {
     id: 4,
     title: 'Diferença: Isenção vs Imunidade',
-    summary: 'Imunidade é limitação constitucional ao poder de tributar. Isenção é dispensa legal do pagamento. Aposentados com moléstia grave têm isenção legal conforme a Lei 7.713/88.',
+    summary: 'Imunidade é limitação constitucional ao poder de tributar. Isenção é dispensa legal do pagamento. Aposentados com doença grave têm isenção legal conforme a Lei 7.713/88.',
     iconName: 'Scale'
   }
 ];
@@ -33,7 +34,7 @@ const getIcon = (name: string) => {
   switch (name) {
     case 'FileText': return <FileText className="w-8 h-8 text-accent" />;
     case 'Stethoscope': return <Stethoscope className="w-8 h-8 text-accent" />;
-    case 'History': return <TrendingUp className="w-8 h-8 text-green-600" />; // Ícone de gráfico subindo para dinheiro
+    case 'History': return <TrendingUp className="w-8 h-8 text-green-600" />;
     case 'Scale': return <Scale className="w-8 h-8 text-accent" />;
     default: return <FileText className="w-8 h-8 text-accent" />;
   }
